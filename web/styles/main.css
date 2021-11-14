@@ -1,0 +1,140 @@
+body {
+    /*background-image: url("img/back.png");*/
+    background-image: url("https://giphy.com/gifs/half-baked-weed-green-Hy9FU7i9TEQcU");
+}
+.header {
+    overflow: hidden; /*Видимость вылезших элементов*/
+    background: #007765;
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 120px;
+    /*text-align: right;*/
+}
+#logo {
+    float: left;
+}
+#info {
+    /*text-align: center;*/
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 0px 10px 0px;
+    float: right;
+}
+.main {
+    overflow: auto;
+    margin: 120px auto 0px;
+    padding: 1px 5px 1px;
+    display: block;
+    background: rgb(45, 184, 108);
+    color: #ffffff;
+    width: 730px;
+    height: 100%;
+    font-family: "Arial", sans-serif;
+    font-style: normal;
+}
+h1{
+    margin: 10px;
+    color: white;
+    font-size: 22px;
+}
+h2 {
+    color: white;
+    font-size: 100%;
+    font-style: normal;
+    font-family: sans-serif;
+    text-align: left;
+    margin: 20px 10px 5px;
+}
+
+.warn-checkbox {
+    margin: 0px 0px 0px 10px;
+    color: red;
+}
+.warn-text {
+    border-color: red;
+}
+
+iframe {
+    border-width: 0px;
+    width: 100%;
+    height: 270px;
+}
+
+input{
+    color: black;
+    margin: 0px 10px 3px;
+}
+
+
+/*BUTTONS styles*/
+.button {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: black;
+    border-color: #94f559;
+    border-style: solid;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#6ed54b), to(#d3ffc9));
+}
+.button:hover:enabled {
+    color: black;
+    border-color: #6ccf5a;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#6ed54b), to(#289c44));
+}
+.button:disabled {
+    border-color: rgba(9, 90, 27, 0.82);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(11, 156, 39, 0.54)), to(#83a07c));
+    color: grey;
+}
+.button.in-button{
+    width: 32px;
+    margin: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+.button.submit-button{
+    margin: 15px 5px 5px 70px;
+    border-radius: 10px;
+}
+.button.history-button{
+    margin-top: 0;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#submit {
+    margin: 15px 5px 0px 70px;
+}
+
+.button-div{
+    margin: 0px 0px 0px 10px;
+}
+.main canvas {
+    float: right;
+    margin-right: 150px;
+}
+#result-table{
+    border-collapse: collapse;
+    border: solid 4px #ffffff;
+    padding: 0;
+    font-size: 15px;
+    color: white;
+    margin: 0px 10px;
+}
+#result-table td, #result-table th{
+    border: solid 2px #ffffff;
+    text-align: center;
+}
+#result-table th{
+
+    border-bottom: 2px solid #ffffff;
+    padding-left: 2px;
+    padding-right: 4px;
+}
+
+
